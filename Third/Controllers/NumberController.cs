@@ -8,7 +8,7 @@ namespace Third.Controllers
 {
     [Route("api/number")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class NumberController : ControllerBase
     {
         // GET api/values
         [HttpGet]
