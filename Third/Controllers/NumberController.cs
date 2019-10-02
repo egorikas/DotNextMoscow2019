@@ -22,12 +22,10 @@ namespace Third.Controllers
         [HttpGet]
         public async Task<string> Get()
         {
-            var builder = _tracer.BuildSpan("Получить 3 значение");
-            using (var started = builder.StartActive())
-            {
-                started.Span.Log("мы здесь");
-                return $"третий";
-            }
+            return $"третий";
+//            var client = new HttpClient();
+//            var row = await client.GetStringAsync("http://localhost:8000/api/number");
+//            return $"третий {row}";
         }
     }
 }
