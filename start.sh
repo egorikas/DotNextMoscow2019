@@ -10,7 +10,7 @@ echo "Запускаем сервисы"
 dotnet run -p First 2>/dev/null &
 dotnet run -p Second 2>/dev/null &
 dotnet run -p Third 2>/dev/null &
-#go run ./alien
+GO111MODULE=on go run ./alien/alien.go
 echo "Ожидаем старта"
 
 wait
