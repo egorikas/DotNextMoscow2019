@@ -30,7 +30,7 @@ func AlienServer(w http.ResponseWriter, r *http.Request) {
 	h := w.Header()
 	h.Set("Content-Type", "text/html")
 	w.WriteHeader(200)
-	_, _ = w.Write([]byte("alien"))
+	_, _ = w.Write([]byte("👽"))
 }
 
 
