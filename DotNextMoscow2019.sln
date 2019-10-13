@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Second", "Second\Second.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Third", "Third\Third.csproj", "{64682206-8AC9-42C5-9A82-17858B15A698}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightStepDemo", "LightStepDemo\LightStepDemo.csproj", "{6D4728CE-9CCE-4922-8BDF-5C81F7130AF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "otherdemos", "otherdemos", "{FA4D46C4-9449-4E95-8EEB-C0CD559FFF19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,12 @@ Global
 		{64682206-8AC9-42C5-9A82-17858B15A698}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64682206-8AC9-42C5-9A82-17858B15A698}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64682206-8AC9-42C5-9A82-17858B15A698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4728CE-9CCE-4922-8BDF-5C81F7130AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4728CE-9CCE-4922-8BDF-5C81F7130AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4728CE-9CCE-4922-8BDF-5C81F7130AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4728CE-9CCE-4922-8BDF-5C81F7130AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D4728CE-9CCE-4922-8BDF-5C81F7130AF5} = {FA4D46C4-9449-4E95-8EEB-C0CD559FFF19}
 	EndGlobalSection
 EndGlobal
