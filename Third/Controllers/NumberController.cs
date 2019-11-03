@@ -23,10 +23,10 @@ namespace Third.Controllers
         [HttpGet]
         public async Task<string> Get()
         {
-            //return $"третий";
-            var client = new HttpClient();
-            var row = await client.GetStringAsync("http://localhost:8000/api/number");
-            return $"третий {row}";
+            return $"третий";
+//            var client = new HttpClient();
+//            var row = await client.GetStringAsync("http://localhost:8000/api/number");
+//            return $"третий {row}";
         }
     }
 }

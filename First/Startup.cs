@@ -31,12 +31,11 @@ namespace First
             {
                 string serviceName = serviceProvider.GetRequiredService<IHostingEnvironment>().ApplicationName;
 
-                // This will log to a default localhost installation of Jaeger.
                 var tracer = new Tracer.Builder(serviceName)
                     .WithSampler(new ConstSampler(true))
                     .Build();
 
-                // Allows code that can't use DI to also access the tracer.
+                // Регистрируем глобальный трейсер
                 GlobalTracer.Register(tracer);
 
                 return tracer;
